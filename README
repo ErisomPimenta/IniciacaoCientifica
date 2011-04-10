@@ -1,1 +1,35 @@
 Projeto de Iniciação Cientifica na Fatec usando Lógica Fuzzy
+
+
+
+
+--- Configurando o Projeto 
+
+A - Exemplo em Linux
+
+1 - Instalar Git
+$ apt-get install git
+
+1 - Criar o Diretório do Projeto local
+$ mkdir IniciacaoCientifica
+
+2 - Adicionar o repositório no Git
+$ cd IniciacaoCientifica
+$ git init
+
+3 - baixar o projeto do repositorio onde seu username sera a sua conta o gitHub e tambem faça o fork do projeto
+$ git pull git@github.com:username/IniciacaoCientifica.git 
+
+4 - Instalar o Maven
+$ apt-get install maven2
+$ mvn clean install
+
+5 - Gerar o projeto para o eclipse
+$ mvn eclipse:eclipse
+
+6 - Nesse ponto ja concluimos que tenha instalado o Eclipse
+	6.1 - Abra o Eclipse
+	6.2 - Import o projeto aonde criou e baixou o projeto do Github
+	6.3 - Projeto Pronto no Eclipse
+	
+
