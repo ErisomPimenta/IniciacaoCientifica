@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.prime.com.tr/ui">
+
+<f:view contentType="text/html">
+	<h:head>
+		<title><ui:insert name="title">Lógica Fuzzy </ui:insert></title>
+		<meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+
+		<style type="text/css">
+.ui-widget {
+	font-size: 75%;
+}
+
+.themeMenu {
+	overflow: auto;
+	height: 300px;
+	width: 200px;
+}
+</style>
+	</h:head>
+
+	<h:body>
+
+		<p:growl id="msg" showDetail="true" />
+
+		<p:layout fullPage="true">
+
+			<p:layoutUnit id="top" position="top" resizable="true" height="150"
+				minHeight="100" maxHeight="175">
+				<h:outputText value="Lógica Fuzzy app "
+					style="font-size:36px;position:absolute;top:50px;left:100px;" />
+			</p:layoutUnit>
+
+			<p:layoutUnit id="bottom" position="bottom" height="50" zindex="0"
+				scrollable="null">
+
+				<br />
+
+
+			</p:layoutUnit>
+
+			<p:layoutUnit id="left" position="left" width="300" resizable="true"
+				closable="true" collapsible="true" header="Options" minWidth="200">
+				<p:accordionPanel activeIndex="0" autoHeight="false">
+					<p:tab title="Administração">
+
+					</p:tab>
+
+					<p:tab title="Relatórios">
+						<h:outputText value="Top usuarios" />
+					</p:tab>
+
+					<p:tab title="Informações">
+						<p:calendar mode="inline" navigator="none" />
+					</p:tab>
+				</p:accordionPanel>
+			</p:layoutUnit>
+
+			<p:layoutUnit id="right" position="right" width="250"
+				header="Gallery" resizable="true" closable="true" collapsible="true">
+
+			</p:layoutUnit>
+
+			<p:layoutUnit id="center" position="center"
+				style="text-align:center;" scrollable="true">
+				<h:form>
+					<p:tabView>
+						<p:tab title="Cadastro Pessoal">
+							<h:panelGrid columns="2" cellpadding="10">
+								<h:outputText value="Nome" /><p:inputTextarea style="width:30px;height:10px;" effectDuration="400" /> 
+								<h:outputText value="Idade" /><p:inputTextarea style="width:30px;height:10px;" effectDuration="400" /> 
+								<h:outputText value="Profissão" /><p:inputTextarea style="width:30px;height:10px;" effectDuration="400" /> 
+								<h:outputText value="Grau de Instrução" /><p:inputTextarea style="width:30px;height:10px;" effectDuration="400" /> Tex  />
+							</h:panelGrid>
+						</p:tab>
+
+						<p:tab title="Informações Nutricionais">
+							<h:panelGrid columns="2" cellpadding="10">
+								<h:outputText value="Peso" /><p:inputTextarea style="width:30px;height:10px;" effectDuration="400" />  
+								<h:outputText value="Altura" /><p:inputTextarea style="width:30px;height:10px;" effectDuration="400" /> 
+								<h:outputText value="Alimentação" /><p:inputTextarea style="width:30px;height:10px;" effectDuration="400" /> 
+							</h:panelGrid>
+						</p:tab>
+					</p:tabView>
+				</h:form>
+
+
+			</p:layoutUnit>
+
+		</p:layout>
+
+	</h:body>
+
+</f:view>
+</html>
+

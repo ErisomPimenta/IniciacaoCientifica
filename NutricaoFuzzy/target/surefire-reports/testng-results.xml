@@ -6,7 +6,7 @@
     </groups>
     <test name="Command line test">
       <class name="br.edu.fateccarapicuiba.HelloWorldTest">
-        <test-method status="PASS" signature="testGetText()" name="testGetText" duration-ms="5" started-at="2011-04-09T21:28:20Z" finished-at="2011-04-09T21:28:20Z">
+        <test-method status="PASS" signature="testGetText()" name="testGetText" duration-ms="5" started-at="2011-04-19T15:20:30Z" finished-at="2011-04-19T15:20:30Z">
         </test-method>
       </class>
     </test>

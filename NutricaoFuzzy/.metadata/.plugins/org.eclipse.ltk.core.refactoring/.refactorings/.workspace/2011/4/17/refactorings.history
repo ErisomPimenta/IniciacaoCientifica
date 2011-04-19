@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 4 resources" deleteContents="false" description="Delete 4 resources" element1="/NutricaoFuzzy/src/main/webapp/WEB-INF/templates/commonContent.xhtml" element2="/NutricaoFuzzy/src/main/webapp/WEB-INF/templates/commonFooter.xhtml" element3="/NutricaoFuzzy/src/main/webapp/WEB-INF/templates/commonHeader.xhtml" element4="/NutricaoFuzzy/src/main/webapp/WEB-INF/templates/commonLayout.xhtml" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="4" stamp="1303232632171"/>
+</session>
