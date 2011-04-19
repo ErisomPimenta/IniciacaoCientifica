@@ -321,3 +321,207 @@ org.eclipse.epp.package.jee.product
 2011-04-19 14:58:39,947 [main] DEBUG o.e.m.c.i.e.MavenEmbeddedRuntime - 	Entry:/home/nyxx13/eclipse/configuration/org.eclipse.osgi/bundles/813/1/.cp/
 2011-04-19 15:02:04,722 [New I/O client worker #5-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repository.prime.com.tr/org/primefaces/primefaces/3.0.M2-SNAPSHOT/primefaces-3.0.M2-SNAPSHOT.jar
 2011-04-19 15:20:22,066 [main] INFO  o.e.m.c.i.p.r.ProjectRegistryRefreshJob - Refreshing [/NutricaoFuzzy/pom.xml]
+2011-04-19 17:41:53,659 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin - Java properties (ordered by property name):
+2011-04-19 17:41:53,686 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.application=org.eclipse.ui.ide.workbench
+2011-04-19 17:41:53,686 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.buildId=M20100909-0800
+2011-04-19 17:41:53,686 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.commands=-os
+linux
+-ws
+gtk
+-arch
+x86_64
+-showsplash
+-launcher
+/home/nyxx13/eclipse/eclipse
+-name
+Eclipse
+--launcher.library
+/home/nyxx13/eclipse//plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.1.R36x_v20100810/eclipse_1309.so
+-startup
+/home/nyxx13/eclipse//plugins/org.eclipse.equinox.launcher_1.1.0.v20100507.jar
+-exitdata
+d0018
+-product
+org.eclipse.epp.package.jee.product
+-vm
+/usr/bin/java
+
+2011-04-19 17:41:53,686 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.home.location=file:/home/nyxx13/eclipse/
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.launcher=/home/nyxx13/eclipse/eclipse
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.launcher.name=Eclipse
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.p2.data.area=@config.dir/../p2/
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.p2.profile=epp.package.jee
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.product=org.eclipse.epp.package.jee.product
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.startTime=1303245704039
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.vm=/usr/bin/java
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    eclipse.vmargs=-Dosgi.requiredJavaVersion=1.5
+-XX:MaxPermSize=256m
+-Xms40m
+-Xmx512m
+-jar
+/home/nyxx13/eclipse//plugins/org.eclipse.equinox.launcher_1.1.0.v20100507.jar
+
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    equinox.use.ds=true
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    file.encoding=UTF-8
+2011-04-19 17:41:53,687 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    file.encoding.pkg=sun.io
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    file.separator=/
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.awt.printerjob=sun.print.PSPrinterJob
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.class.path=/home/nyxx13/eclipse//plugins/org.eclipse.equinox.launcher_1.1.0.v20100507.jar
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.class.version=50.0
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.endorsed.dirs=/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/endorsed
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.ext.dirs=/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/ext:/usr/java/packages/lib/ext
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.home=/usr/lib/jvm/java-6-sun-1.6.0.24/jre
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.io.tmpdir=/tmp
+2011-04-19 17:41:53,688 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.library.path=/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64/server:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/../lib/amd64:/usr/lib64/xulrunner-addons:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2011-04-19 17:41:53,689 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.runtime.name=Java(TM) SE Runtime Environment
+2011-04-19 17:41:53,689 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.runtime.version=1.6.0_24-b07
+2011-04-19 17:41:53,689 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.specification.name=Java Platform API Specification
+2011-04-19 17:41:53,689 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.specification.vendor=Sun Microsystems Inc.
+2011-04-19 17:41:53,694 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.specification.version=1.6
+2011-04-19 17:41:53,694 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vendor=Sun Microsystems Inc.
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vendor.url=http://java.sun.com/
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.version=1.6.0_24
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vm.info=mixed mode
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vm.specification.name=Java Virtual Machine Specification
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vm.specification.vendor=Sun Microsystems Inc.
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vm.specification.version=1.0
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vm.vendor=Sun Microsystems Inc.
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    java.vm.version=19.1-b02
+2011-04-19 17:41:53,695 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    line.separator=
+
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.eclipse.equinox.launcher.splash.handle=140156931048288
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.eclipse.equinox.launcher.splash.location=/home/nyxx13/eclipse/plugins/org.eclipse.platform_3.6.1.v201009090800/splash.bmp
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.eclipse.equinox.simpleconfigurator.configUrl=file:org.eclipse.equinox.simpleconfigurator/bundles.info
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.eclipse.m2e.log.dir=/home/nyxx13/Fatec/IniciacaoCientifica/NutricaoFuzzy/.metadata/.plugins/org.eclipse.m2e.logback.configuration
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.eclipse.update.reconcile=false
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.framework.executionenvironment=OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JRE-1.1,J2SE-1.2,J2SE-1.3,J2SE-1.4,J2SE-1.5,JavaSE-1.6
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.framework.language=pt
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.framework.os.name=Linux
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.framework.os.version=2.6.35
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.framework.processor=x86-64
+2011-04-19 17:41:53,696 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.framework.system.packages=javax.accessibility,javax.activation,javax.activity,javax.annotation,javax.annotation.processing,javax.crypto,javax.crypto.interfaces,javax.crypto.spec,javax.imageio,javax.imageio.event,javax.imageio.metadata,javax.imageio.plugins.bmp,javax.imageio.plugins.jpeg,javax.imageio.spi,javax.imageio.stream,javax.jws,javax.jws.soap,javax.lang.model,javax.lang.model.element,javax.lang.model.type,javax.lang.model.util,javax.management,javax.management.loading,javax.management.modelmbean,javax.management.monitor,javax.management.openmbean,javax.management.relation,javax.management.remote,javax.management.remote.rmi,javax.management.timer,javax.naming,javax.naming.directory,javax.naming.event,javax.naming.ldap,javax.naming.spi,javax.net,javax.net.ssl,javax.print,javax.print.attribute,javax.print.attribute.standard,javax.print.event,javax.rmi,javax.rmi.CORBA,javax.rmi.ssl,javax.script,javax.security.auth,javax.security.auth.callback,javax.security.auth.kerberos,javax.security.auth.login,javax.security.auth.spi,javax.security.auth.x500,javax.security.cert,javax.security.sasl,javax.sound.midi,javax.sound.midi.spi,javax.sound.sampled,javax.sound.sampled.spi,javax.sql,javax.sql.rowset,javax.sql.rowset.serial,javax.sql.rowset.spi,javax.swing,javax.swing.border,javax.swing.colorchooser,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,javax.swing.plaf.basic,javax.swing.plaf.metal,javax.swing.plaf.multi,javax.swing.plaf.synth,javax.swing.table,javax.swing.text,javax.swing.text.html,javax.swing.text.html.parser,javax.swing.text.rtf,javax.swing.tree,javax.swing.undo,javax.tools,javax.transaction,javax.transaction.xa,javax.xml,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.bind.util,javax.xml.crypto,javax.xml.crypto.dom,javax.xml.crypto.dsig,javax.xml.crypto.dsig.dom,javax.xml.crypto.dsig.keyinfo,javax.xml.crypto.dsig.spec,javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.soap,javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stax,javax.xml.transform.stream,javax.xml.validation,javax.xml.ws,javax.xml.ws.handler,javax.xml.ws.handler.soap,javax.xml.ws.http,javax.xml.ws.soap,javax.xml.ws.spi,javax.xml.ws.wsaddressing,javax.xml.xpath,org.ietf.jgss,org.omg.CORBA,org.omg.CORBA_2_3,org.omg.CORBA_2_3.portable,org.omg.CORBA.DynAnyPackage,org.omg.CORBA.ORBPackage,org.omg.CORBA.portable,org.omg.CORBA.TypeCodePackage,org.omg.CosNaming,org.omg.CosNaming.NamingContextExtPackage,org.omg.CosNaming.NamingContextPackage,org.omg.Dynamic,org.omg.DynamicAny,org.omg.DynamicAny.DynAnyFactoryPackage,org.omg.DynamicAny.DynAnyPackage,org.omg.IOP,org.omg.IOP.CodecFactoryPackage,org.omg.IOP.CodecPackage,org.omg.Messaging,org.omg.PortableInterceptor,org.omg.PortableInterceptor.ORBInitInfoPackage,org.omg.PortableServer,org.omg.PortableServer.CurrentPackage,org.omg.PortableServer.POAManagerPackage,org.omg.PortableServer.POAPackage,org.omg.PortableServer.portable,org.omg.PortableServer.ServantLocatorPackage,org.omg.SendingContext,org.omg.stub.java.rmi,org.w3c.dom,org.w3c.dom.bootstrap,org.w3c.dom.css,org.w3c.dom.events,org.w3c.dom.html,org.w3c.dom.ls,org.w3c.dom.ranges,org.w3c.dom.stylesheets,org.w3c.dom.traversal,org.w3c.dom.views,org.w3c.dom.xpath,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.framework.vendor=Eclipse
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.framework.version=1.5.0
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.supports.framework.extension=true
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.supports.framework.fragment=true
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    org.osgi.supports.framework.requirebundle=true
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    os.arch=amd64
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    os.name=Linux
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    os.version=2.6.35-28-generic
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.arch=x86_64
+2011-04-19 17:41:53,697 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.bundles=reference:file:org.eclipse.equinox.simpleconfigurator_1.0.200.v20100503.jar@1:start
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.bundles.defaultStartLevel=4
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.bundlestore=/home/nyxx13/eclipse/configuration/org.eclipse.osgi/bundles
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.configuration.area=file:/home/nyxx13/eclipse/configuration/
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.framework=file:/home/nyxx13/eclipse/plugins/org.eclipse.osgi_3.6.1.R36x_v20100806.jar
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.framework.extensions=
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.framework.shape=jar
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.framework.version=3.6.1.R36x_v20100806
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.install.area=file:/home/nyxx13/eclipse/
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.instance.area=file:/home/nyxx13/Fatec/IniciacaoCientifica/NutricaoFuzzy/
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.instance.area.default=file:/home/nyxx13/workspace/
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.logfile=/home/nyxx13/Fatec/IniciacaoCientifica/NutricaoFuzzy/.metadata/.log
+2011-04-19 17:41:53,698 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.manifest.cache=/home/nyxx13/eclipse/configuration/org.eclipse.osgi/manifests
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.nl=pt_BR
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.os=linux
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.requiredJavaVersion=1.5
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.splashLocation=/home/nyxx13/eclipse/plugins/org.eclipse.platform_3.6.1.v201009090800/splash.bmp
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.splashPath=platform:/base/plugins/org.eclipse.platform
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.syspath=/home/nyxx13/eclipse/plugins
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.tracefile=/home/nyxx13/Fatec/IniciacaoCientifica/NutricaoFuzzy/.metadata/trace.log
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    osgi.ws=gtk
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    path.separator=:
+2011-04-19 17:41:53,699 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.arch.data.model=64
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.boot.class.path=/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/resources.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/rt.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/jsse.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/jce.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/charsets.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/modules/jdk.boot.jar:/usr/lib/jvm/java-6-sun-1.6.0.24/jre/classes
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.boot.library.path=/usr/lib/jvm/java-6-sun-1.6.0.24/jre/lib/amd64
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.cpu.endian=little
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.cpu.isalist=
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.desktop=gnome
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.io.unicode.encoding=UnicodeLittle
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.java.launcher=SUN_STANDARD
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.jnu.encoding=UTF-8
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.management.compiler=HotSpot 64-Bit Server Compiler
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    sun.os.patch.level=unknown
+2011-04-19 17:41:53,700 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    user.country=BR
+2011-04-19 17:41:53,701 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    user.dir=/home/nyxx13
+2011-04-19 17:41:53,701 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    user.home=/home/nyxx13
+2011-04-19 17:41:53,701 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    user.language=pt
+2011-04-19 17:41:53,701 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    user.name=nyxx13
+2011-04-19 17:41:53,701 [logback configurator timer] INFO  o.e.m.l.configuration.LogPlugin -    user.timezone=America/Sao_Paulo
+2011-04-19 17:42:21,970 [Worker-9] INFO  o.e.m.c.i.index.NexusIndexManager - Updating index central|http://repo1.maven.org/maven2
+2011-04-19 17:42:22,475 [Worker-9] WARN  c.n.h.c.p.n.NettyConnectListener - Connect exception: {}
+java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Net.java:30) ~[na:1.6.0_24]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:480) ~[na:1.6.0_24]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:140) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:103) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:60) ~[na:na]
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleDownstream(HttpClientCodec.java:82) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleDownstream(ChunkedWriteHandler.java:114) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.channel.Channels.connect(Channels.java:541) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.channel.AbstractChannel.connect(AbstractChannel.java:218) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:227) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:188) ~[netty-3.2.4.Final.jar:na]
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.doConnect(NettyAsyncHttpProvider.java:788) [async-http-client-1.6.0.jar:na]
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.execute(NettyAsyncHttpProvider.java:709) [async-http-client-1.6.0.jar:na]
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476) [async-http-client-1.6.0.jar:na]
+	at com.ning.http.client.SimpleAsyncHttpClient.execute(SimpleAsyncHttpClient.java:243) [async-http-client-1.6.0.jar:na]
+	at com.ning.http.client.SimpleAsyncHttpClient.get(SimpleAsyncHttpClient.java:160) [async-http-client-1.6.0.jar:na]
+	at org.eclipse.m2e.core.internal.index.AsyncFetcher.retrieve(AsyncFetcher.java:196) [org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:452) [indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:75) [indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:607) [indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:788) [indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) [indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1113) [org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.eclipse.m2e.core.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1072) [org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.eclipse.m2e.core.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:657) [org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.eclipse.m2e.core.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71) [org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.1.R36x_v20100824.jar:na]
+2011-04-19 17:42:22,494 [Worker-9] ERROR o.e.m.c.i.index.NexusIndexManager - Unable to update index for central|http://repo1.maven.org/maven2
+java.io.IOException: null
+	at org.eclipse.m2e.core.internal.index.AsyncFetcher$PipedErrorInputStream.checkError(AsyncFetcher.java:244) ~[org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.eclipse.m2e.core.internal.index.AsyncFetcher$PipedErrorInputStream.read(AsyncFetcher.java:250) ~[org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at java.io.PipedInputStream.read(PipedInputStream.java:361) ~[na:1.6.0_24]
+	at java.io.InputStream.read(InputStream.java:85) ~[na:1.6.0_24]
+	at java.util.Properties$LineReader.readLine(Properties.java:418) ~[na:1.6.0_24]
+	at java.util.Properties.load0(Properties.java:337) ~[na:1.6.0_24]
+	at java.util.Properties.load(Properties.java:325) ~[na:1.6.0_24]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:457) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.access$100(DefaultIndexUpdater.java:75) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater$IndexAdaptor.setProperties(DefaultIndexUpdater.java:607) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:788) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.fetchAndUpdateIndex(DefaultIndexUpdater.java:135) ~[indexer-core-3.1.0.jar:3.1.0]
+	at org.eclipse.m2e.core.internal.index.NexusIndexManager.updateRemoteIndex(NexusIndexManager.java:1113) [org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.eclipse.m2e.core.internal.index.NexusIndexManager.updateIndex(NexusIndexManager.java:1072) [org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.eclipse.m2e.core.internal.index.NexusIndexManager$1.run(NexusIndexManager.java:657) [org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.eclipse.m2e.core.internal.index.IndexUpdaterJob.run(IndexUpdaterJob.java:71) [org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54) [org.eclipse.core.jobs_3.5.1.R36x_v20100824.jar:na]
+Caused by: java.net.ConnectException: null
+	at com.ning.http.client.providers.netty.NettyConnectListener.operationComplete(NettyConnectListener.java:81) ~[async-http-client-1.6.0.jar:na]
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.doConnect(NettyAsyncHttpProvider.java:809) ~[async-http-client-1.6.0.jar:na]
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.execute(NettyAsyncHttpProvider.java:709) ~[async-http-client-1.6.0.jar:na]
+	at com.ning.http.client.AsyncHttpClient.executeRequest(AsyncHttpClient.java:476) ~[async-http-client-1.6.0.jar:na]
+	at com.ning.http.client.SimpleAsyncHttpClient.execute(SimpleAsyncHttpClient.java:243) ~[async-http-client-1.6.0.jar:na]
+	at com.ning.http.client.SimpleAsyncHttpClient.get(SimpleAsyncHttpClient.java:160) ~[async-http-client-1.6.0.jar:na]
+	at org.eclipse.m2e.core.internal.index.AsyncFetcher.retrieve(AsyncFetcher.java:196) ~[org.eclipse.m2e.core_0.13.0.201103151108.jar:na]
+	at org.apache.maven.index.updater.DefaultIndexUpdater.downloadIndexProperties(DefaultIndexUpdater.java:452) ~[indexer-core-3.1.0.jar:3.1.0]
+	... 9 common frames omitted
+Caused by: java.nio.channels.UnresolvedAddressException: null
+	at sun.nio.ch.Net.checkAddress(Net.java:30) ~[na:1.6.0_24]
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:480) ~[na:1.6.0_24]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.connect(NioClientSocketPipelineSink.java:140) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.channel.socket.nio.NioClientSocketPipelineSink.eventSunk(NioClientSocketPipelineSink.java:103) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.handler.codec.oneone.OneToOneEncoder.handleDownstream(OneToOneEncoder.java:60) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.handler.codec.http.HttpClientCodec.handleDownstream(HttpClientCodec.java:82) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.handler.stream.ChunkedWriteHandler.handleDownstream(ChunkedWriteHandler.java:114) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.channel.Channels.connect(Channels.java:541) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.channel.AbstractChannel.connect(AbstractChannel.java:218) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:227) ~[netty-3.2.4.Final.jar:na]
+	at org.jboss.netty.bootstrap.ClientBootstrap.connect(ClientBootstrap.java:188) ~[netty-3.2.4.Final.jar:na]
+	at com.ning.http.client.providers.netty.NettyAsyncHttpProvider.doConnect(NettyAsyncHttpProvider.java:788) ~[async-http-client-1.6.0.jar:na]
+	... 15 common frames omitted
+2011-04-19 17:53:16,295 [Worker-7] INFO  o.e.m.c.i.p.r.ProjectRegistryRefreshJob - Refreshing [/NutricaoFuzzy/pom.xml]

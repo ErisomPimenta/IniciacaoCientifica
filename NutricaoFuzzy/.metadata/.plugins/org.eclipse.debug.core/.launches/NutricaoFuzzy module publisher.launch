@@ -10,6 +10,7 @@
 <mapAttribute key="org.eclipse.ui.externaltools.ATTR_ANT_PROPERTIES">
 <mapEntry key="contextRoot" value="NutricaoFuzzy"/>
 <mapEntry key="jndiPort" value="1099"/>
+<mapEntry key="key" value="generic_server_instance_properties"/>
 <mapEntry key="module.archive.name" value="NutricaoFuzzy.war"/>
 <mapEntry key="module.dir" value="/home/nyxx13/Fatec/IniciacaoCientifica/NutricaoFuzzy/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/NutricaoFuzzy"/>
 <mapEntry key="module.name" value="NutricaoFuzzy"/>

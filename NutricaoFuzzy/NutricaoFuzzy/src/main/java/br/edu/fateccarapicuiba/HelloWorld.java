@@ -17,7 +17,36 @@ public @Model class HelloWorld
    
    private String numbers;
    
-   private String email;
+   private String numbers1;
+   private String numbers2;
+   private String numbers3;
+   
+   public String getNumbers1() {
+	   
+	return numbers1;
+}
+
+public void setNumbers1(String numbers1) {
+	this.numbers1 = numbers1;
+}
+
+public String getNumbers2() {
+	return numbers2;
+}
+
+public void setNumbers2(String numbers2) {
+	this.numbers2 = numbers2;
+}
+
+public String getNumbers3() {
+	return numbers3;
+}
+
+public void setNumbers3(String numbers3) {
+	this.numbers3 = numbers3;
+}
+
+private String email;
    
    public HelloWorld() {}
 

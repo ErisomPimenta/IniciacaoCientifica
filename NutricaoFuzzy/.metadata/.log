@@ -1380,3 +1380,1117 @@ java.lang.NullPointerException
 	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
 	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+!SESSION 2011-04-19 17:41:44.039 -----------------------------------------------
+eclipse.buildId=M20100909-0800
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2011-04-19 17:42:11.558
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-04-19 17:42:11.558
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		ActionDelegateHandlerProxy(null,org.eclipse.jdt.internal.ui.actions.OpenTypeAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(com.python.pydev.analysis.actions.pyGlobalsBrowserWorkbench,Python Show Class Browser,
+		Show Class Browser,
+		Category(org.python.pydev.ui.category.source,Pydev - Editor,Pydev editor category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.osgi 2 0 2011-04-19 17:42:17.419
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathVariableInitializer", thread "Thread[Worker-1,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-7,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_0.13.0.201103151108 [770]". To avoid deadlock, thread "Thread[Worker-1,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathVariableInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.m2e.jdt_0.13.0.201103151108.jar" by thread "Worker-7".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariableInitializer(JavaCore.java:2954)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(JavaCore.java:2817)
+	at org.eclipse.jst.j2ee.internal.project.J2EEProjectUtilities.getResolvedPathForArchiveComponent(J2EEProjectUtilities.java:905)
+	at org.eclipse.jst.j2ee.internal.common.VirtualArchiveComponentAdapterFactory.getAdapter(VirtualArchiveComponentAdapterFactory.java:23)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getAdapter(VirtualArchiveComponent.java:227)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getUnderlyingDiskFile(VirtualArchiveComponent.java:282)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getAdapter(VirtualArchiveComponent.java:215)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.exists(VirtualArchiveComponent.java:194)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualComponent.getReferences(VirtualComponent.java:438)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getHardReferences(J2EEModuleVirtualComponent.java:116)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getNonManifestRefs(J2EEModuleVirtualComponent.java:232)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:159)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:207)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:200)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.hasConsumableReferences(SingleRootUtil.java:217)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.validateSingleRoot(SingleRootUtil.java:165)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.isSingleRoot(SingleRootUtil.java:93)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootExportParticipant.canOptimize(SingleRootExportParticipant.java:84)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.canOptimize(FlatVirtualComponent.java:136)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:118)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.getChildModules(FlatVirtualComponent.java:111)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getExportModelChildren(FlatComponentDeployable.java:172)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getModules(FlatComponentDeployable.java:183)
+	at org.eclipse.jst.server.generic.core.internal.GenericServer.getChildModules(GenericServer.java:141)
+	at org.eclipse.wst.server.core.internal.Server.getChildModules(Server.java:2387)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:2784)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:2765)
+	at org.eclipse.wst.server.core.internal.Server.getAllModules(Server.java:1419)
+	at org.eclipse.wst.server.ui.internal.cnf.ServersView2$1.run(ServersView2.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 51 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariableInitializer(JavaCore.java:2954)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(JavaCore.java:2817)
+	at org.eclipse.jst.j2ee.internal.project.J2EEProjectUtilities.getResolvedPathForArchiveComponent(J2EEProjectUtilities.java:905)
+	at org.eclipse.jst.j2ee.internal.common.VirtualArchiveComponentAdapterFactory.getAdapter(VirtualArchiveComponentAdapterFactory.java:23)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getAdapter(VirtualArchiveComponent.java:227)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getUnderlyingDiskFile(VirtualArchiveComponent.java:282)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getAdapter(VirtualArchiveComponent.java:215)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.exists(VirtualArchiveComponent.java:194)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualComponent.getReferences(VirtualComponent.java:438)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getHardReferences(J2EEModuleVirtualComponent.java:116)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getNonManifestRefs(J2EEModuleVirtualComponent.java:232)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:159)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:207)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:200)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.hasConsumableReferences(SingleRootUtil.java:217)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.validateSingleRoot(SingleRootUtil.java:165)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.isSingleRoot(SingleRootUtil.java:93)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootExportParticipant.canOptimize(SingleRootExportParticipant.java:84)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.canOptimize(FlatVirtualComponent.java:136)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:118)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.getChildModules(FlatVirtualComponent.java:111)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getExportModelChildren(FlatComponentDeployable.java:172)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getModules(FlatComponentDeployable.java:183)
+	at org.eclipse.jst.server.generic.core.internal.GenericServer.getChildModules(GenericServer.java:141)
+	at org.eclipse.wst.server.core.internal.Server.getChildModules(Server.java:2387)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:2784)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:2765)
+	at org.eclipse.wst.server.core.internal.Server.getAllModules(Server.java:1419)
+	at org.eclipse.wst.server.ui.internal.cnf.ServersView2$1.run(ServersView2.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2011-04-19 17:42:22.449
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.MavenClasspathVariableInitializer", thread "Thread[Worker-2,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-7,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_0.13.0.201103151108 [770]". To avoid deadlock, thread "Thread[Worker-2,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.MavenClasspathVariableInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.m2e.jdt_0.13.0.201103151108.jar" by thread "Worker-7".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariableInitializer(JavaCore.java:2954)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(JavaCore.java:2817)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getResolvedVariablePath(JavaModelManager.java:2405)
+	at org.eclipse.jdt.internal.core.JavaModelManager.resolveVariableEntry(JavaModelManager.java:2326)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2616)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2783)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1915)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:3496)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 30 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:338)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:232)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1197)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:904)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariableInitializer(JavaCore.java:2954)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(JavaCore.java:2817)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getResolvedVariablePath(JavaModelManager.java:2405)
+	at org.eclipse.jdt.internal.core.JavaModelManager.resolveVariableEntry(JavaModelManager.java:2326)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2616)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2783)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1915)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:3496)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.core.jobs 4 2 2011-04-19 17:42:22.456
+!MESSAGE An internal error occurred during: "Initializing Java Tooling".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.jdt.internal.MavenClasspathVariableInitializer.initialize(MavenClasspathVariableInitializer.java:30)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(JavaCore.java:2828)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getResolvedVariablePath(JavaModelManager.java:2405)
+	at org.eclipse.jdt.internal.core.JavaModelManager.resolveVariableEntry(JavaModelManager.java:2326)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2616)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2783)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1915)
+	at org.eclipse.jdt.core.JavaCore.initializeAfterLoad(JavaCore.java:3496)
+	at org.eclipse.jdt.internal.ui.InitializeAfterLoadJob$RealJob.run(InitializeAfterLoadJob.java:35)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.osgi 2 0 2011-04-19 17:42:22.457
+!MESSAGE While loading class "org.eclipse.m2e.jdt.internal.BuildPathManager", thread "Thread[Worker-1,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-7,5,main]" to finish starting bundle "org.eclipse.m2e.jdt_0.13.0.201103151108 [770]". To avoid deadlock, thread "Thread[Worker-1,5,main]" is proceeding but "org.eclipse.m2e.jdt.internal.BuildPathManager" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.eclipse.m2e.jdt_0.13.0.201103151108.jar" by thread "Worker-7".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathVariableInitializer.initialize(MavenClasspathVariableInitializer.java:30)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(JavaCore.java:2828)
+	at org.eclipse.jst.j2ee.internal.project.J2EEProjectUtilities.getResolvedPathForArchiveComponent(J2EEProjectUtilities.java:905)
+	at org.eclipse.jst.j2ee.internal.common.VirtualArchiveComponentAdapterFactory.getAdapter(VirtualArchiveComponentAdapterFactory.java:23)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getAdapter(VirtualArchiveComponent.java:227)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getUnderlyingDiskFile(VirtualArchiveComponent.java:282)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getAdapter(VirtualArchiveComponent.java:215)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.exists(VirtualArchiveComponent.java:194)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualComponent.getReferences(VirtualComponent.java:438)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getHardReferences(J2EEModuleVirtualComponent.java:116)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getNonManifestRefs(J2EEModuleVirtualComponent.java:232)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:159)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:207)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:200)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.hasConsumableReferences(SingleRootUtil.java:217)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.validateSingleRoot(SingleRootUtil.java:165)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.isSingleRoot(SingleRootUtil.java:93)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootExportParticipant.canOptimize(SingleRootExportParticipant.java:84)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.canOptimize(FlatVirtualComponent.java:136)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:118)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.getChildModules(FlatVirtualComponent.java:111)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getExportModelChildren(FlatComponentDeployable.java:172)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getModules(FlatComponentDeployable.java:183)
+	at org.eclipse.jst.server.generic.core.internal.GenericServer.getChildModules(GenericServer.java:141)
+	at org.eclipse.wst.server.core.internal.Server.getChildModules(Server.java:2387)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:2784)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:2765)
+	at org.eclipse.wst.server.core.internal.Server.getAllModules(Server.java:1419)
+	at org.eclipse.wst.server.ui.internal.cnf.ServersView2$1.run(ServersView2.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 44 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1077)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:282)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:417)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:265)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:106)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:453)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:393)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:469)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:422)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+	at org.eclipse.m2e.jdt.internal.MavenClasspathVariableInitializer.initialize(MavenClasspathVariableInitializer.java:30)
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(JavaCore.java:2828)
+	at org.eclipse.jst.j2ee.internal.project.J2EEProjectUtilities.getResolvedPathForArchiveComponent(J2EEProjectUtilities.java:905)
+	at org.eclipse.jst.j2ee.internal.common.VirtualArchiveComponentAdapterFactory.getAdapter(VirtualArchiveComponentAdapterFactory.java:23)
+	at org.eclipse.core.internal.runtime.AdapterManager.getAdapter(AdapterManager.java:295)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getAdapter(VirtualArchiveComponent.java:227)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getUnderlyingDiskFile(VirtualArchiveComponent.java:282)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.getAdapter(VirtualArchiveComponent.java:215)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualArchiveComponent.exists(VirtualArchiveComponent.java:194)
+	at org.eclipse.wst.common.componentcore.internal.resources.VirtualComponent.getReferences(VirtualComponent.java:438)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getHardReferences(J2EEModuleVirtualComponent.java:116)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getNonManifestRefs(J2EEModuleVirtualComponent.java:232)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:159)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:207)
+	at org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.getReferences(J2EEModuleVirtualComponent.java:200)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.hasConsumableReferences(SingleRootUtil.java:217)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.validateSingleRoot(SingleRootUtil.java:165)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootUtil.isSingleRoot(SingleRootUtil.java:93)
+	at org.eclipse.jst.common.internal.modulecore.SingleRootExportParticipant.canOptimize(SingleRootExportParticipant.java:84)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.canOptimize(FlatVirtualComponent.java:136)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.cacheResources(FlatVirtualComponent.java:118)
+	at org.eclipse.wst.common.componentcore.internal.flat.FlatVirtualComponent.getChildModules(FlatVirtualComponent.java:111)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getExportModelChildren(FlatComponentDeployable.java:172)
+	at org.eclipse.wst.web.internal.deployables.FlatComponentDeployable.getModules(FlatComponentDeployable.java:183)
+	at org.eclipse.jst.server.generic.core.internal.GenericServer.getChildModules(GenericServer.java:141)
+	at org.eclipse.wst.server.core.internal.Server.getChildModules(Server.java:2387)
+	at org.eclipse.wst.server.core.internal.Server.visitModule(Server.java:2784)
+	at org.eclipse.wst.server.core.internal.Server.visit(Server.java:2765)
+	at org.eclipse.wst.server.core.internal.Server.getAllModules(Server.java:1419)
+	at org.eclipse.wst.server.ui.internal.cnf.ServersView2$1.run(ServersView2.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.wst.server.core 4 0 2011-04-19 17:42:22.459
+!MESSAGE Missing or failed server extension: JBoss v5.0 at localhost. Enable tracing for more information
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2011-04-19 17:42:22.477
+!MESSAGE Connect exception: {}
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2011-04-19 17:42:22.495
+!MESSAGE Unable to update index for central|http://repo1.maven.org/maven2
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.797
+!MESSAGE Ignoring invalid id: primefaces/dock/assets/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.799
+!MESSAGE Ignoring invalid id: primefaces/growl/assets/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.800
+!MESSAGE Ignoring invalid id: primefaces/jquery/ui/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.800
+!MESSAGE Ignoring invalid id: primefaces/lightbox/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.803
+!MESSAGE Ignoring invalid id: primefaces/skins/sam/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.803
+!MESSAGE Ignoring invalid id: primefaces/stack/assets/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.805
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.806
+!MESSAGE Ignoring invalid id: primefaces/treetable/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.806
+!MESSAGE Ignoring invalid id: primefaces/treeview/images/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.807
+!MESSAGE Ignoring invalid id: primefaces/yui/assets/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.807
+!MESSAGE Ignoring invalid id: primefaces/yui/button/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.808
+!MESSAGE Ignoring invalid id: primefaces/yui/button/assets/skins/sam/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.808
+!MESSAGE Ignoring invalid id: primefaces/yui/charts/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.809
+!MESSAGE Ignoring invalid id: primefaces/yui/colorpicker/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.809
+!MESSAGE Ignoring invalid id: primefaces/yui/colorpicker/assets/skins/sam/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.809
+!MESSAGE Ignoring invalid id: primefaces/yui/container/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.810
+!MESSAGE Ignoring invalid id: primefaces/yui/container/assets/skins/sam/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.810
+!MESSAGE Ignoring invalid id: primefaces/yui/cookie/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.811
+!MESSAGE Ignoring invalid id: primefaces/yui/datasource/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.811
+!MESSAGE Ignoring invalid id: primefaces/yui/datatable/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.811
+!MESSAGE Ignoring invalid id: primefaces/yui/editor/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.812
+!MESSAGE Ignoring invalid id: primefaces/yui/editor/assets/skins/sam/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.812
+!MESSAGE Ignoring invalid id: primefaces/yui/menu/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.812
+!MESSAGE Ignoring invalid id: primefaces/yui/menu/assets/skins/sam/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.813
+!MESSAGE Ignoring invalid id: primefaces/yui/paginator/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.813
+!MESSAGE Ignoring invalid id: primefaces/yui/paginator/assets/skins/sam/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.813
+!MESSAGE Ignoring invalid id: primefaces/yui/resize/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.814
+!MESSAGE Ignoring invalid id: primefaces/yui/resize/assets/skins/sam/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.814
+!MESSAGE Ignoring invalid id: primefaces/yui/slider/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.815
+!MESSAGE Ignoring invalid id: primefaces/yui/slider/assets/skins/sam/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.815
+!MESSAGE Ignoring invalid id: primefaces/yui/swf/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.815
+!MESSAGE Ignoring invalid id: primefaces/yui/utilities/
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.816
+!MESSAGE Ignoring invalid id: primefaces/accordion/accordion.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.816
+!MESSAGE Ignoring invalid id: primefaces/ajaxstatus/ajaxstatus.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.816
+!MESSAGE Ignoring invalid id: primefaces/autocomplete/autocomplete.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.816
+!MESSAGE Ignoring invalid id: primefaces/breadcrumb/breadcrumb.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.816
+!MESSAGE Ignoring invalid id: primefaces/breadcrumb/breadcrumb.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.817
+!MESSAGE Ignoring invalid id: primefaces/breadcrumb/Chevron.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.817
+!MESSAGE Ignoring invalid id: primefaces/button/button.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.817
+!MESSAGE Ignoring invalid id: primefaces/calendar/calendar.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.817
+!MESSAGE Ignoring invalid id: primefaces/calendar/calendar_i18n.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.817
+!MESSAGE Ignoring invalid id: primefaces/calendar/calendar_icon.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.818
+!MESSAGE Ignoring invalid id: primefaces/calendar/calendar_icon_disabled.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.818
+!MESSAGE Ignoring invalid id: primefaces/carousel/carousel.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.818
+!MESSAGE Ignoring invalid id: primefaces/carousel/carousel.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.818
+!MESSAGE Ignoring invalid id: primefaces/charts/charts.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.819
+!MESSAGE Ignoring invalid id: primefaces/colorpicker/colorpicker.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.819
+!MESSAGE Ignoring invalid id: primefaces/confirmdialog/confirmdialog.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.819
+!MESSAGE Ignoring invalid id: primefaces/contextmenu/contextmenu.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.819
+!MESSAGE Ignoring invalid id: primefaces/core/core.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.819
+!MESSAGE Ignoring invalid id: primefaces/dashboard/dashboard.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.820
+!MESSAGE Ignoring invalid id: primefaces/dashboard/dashboard.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.820
+!MESSAGE Ignoring invalid id: primefaces/datagrid/datagrid.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.820
+!MESSAGE Ignoring invalid id: primefaces/datagrid/datagrid.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.820
+!MESSAGE Ignoring invalid id: primefaces/datalist/datalist.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.821
+!MESSAGE Ignoring invalid id: primefaces/datatable/datatable.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.821
+!MESSAGE Ignoring invalid id: primefaces/datatable/datatable.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.821
+!MESSAGE Ignoring invalid id: primefaces/dialog/dialog.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.821
+!MESSAGE Ignoring invalid id: primefaces/dnd/dragdrop.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.822
+!MESSAGE Ignoring invalid id: primefaces/dock/dock.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.822
+!MESSAGE Ignoring invalid id: primefaces/editor/editor.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.822
+!MESSAGE Ignoring invalid id: primefaces/fieldset/fieldset.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.823
+!MESSAGE Ignoring invalid id: primefaces/fieldset/fieldset.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.823
+!MESSAGE Ignoring invalid id: primefaces/fileupload/cancel.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.823
+!MESSAGE Ignoring invalid id: primefaces/fileupload/fileupload.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.823
+!MESSAGE Ignoring invalid id: primefaces/fileupload/fileupload.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.823
+!MESSAGE Ignoring invalid id: primefaces/fileupload/uploadify.swf
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.824
+!MESSAGE Ignoring invalid id: primefaces/galleria/classic-loader.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.824
+!MESSAGE Ignoring invalid id: primefaces/galleria/classic-map.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.824
+!MESSAGE Ignoring invalid id: primefaces/galleria/galleria.classic.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.824
+!MESSAGE Ignoring invalid id: primefaces/galleria/galleria.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.825
+!MESSAGE Ignoring invalid id: primefaces/galleria/galleria.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.825
+!MESSAGE Ignoring invalid id: primefaces/gmap/gmap.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.826
+!MESSAGE Ignoring invalid id: primefaces/growl/growl.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.826
+!MESSAGE Ignoring invalid id: primefaces/hotkey/jquery.hotkeys.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.826
+!MESSAGE Ignoring invalid id: primefaces/idlemonitor/idlemonitor.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.826
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/handle.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.827
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/imagecompare.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.827
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/lt-small.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.827
+!MESSAGE Ignoring invalid id: primefaces/imagecompare/rt-small.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.827
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/crop.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.827
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/imagecropper.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.828
+!MESSAGE Ignoring invalid id: primefaces/imagecropper/imagecropper.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.828
+!MESSAGE Ignoring invalid id: primefaces/imageswitch/imageswitch.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.828
+!MESSAGE Ignoring invalid id: primefaces/inplace/inplace.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.828
+!MESSAGE Ignoring invalid id: primefaces/inplace/inplace.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.828
+!MESSAGE Ignoring invalid id: primefaces/inputmask/inputmask.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.829
+!MESSAGE Ignoring invalid id: primefaces/jquery/jquery.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.829
+!MESSAGE Ignoring invalid id: primefaces/keyboard/keyboard.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.830
+!MESSAGE Ignoring invalid id: primefaces/keyboard/keyboard.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.830
+!MESSAGE Ignoring invalid id: primefaces/layout/layout.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.830
+!MESSAGE Ignoring invalid id: primefaces/layout/layout.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.830
+!MESSAGE Ignoring invalid id: primefaces/layout/layout_sprite.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.831
+!MESSAGE Ignoring invalid id: primefaces/lightbox/lightbox.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.831
+!MESSAGE Ignoring invalid id: primefaces/lightbox/lightbox.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.831
+!MESSAGE Ignoring invalid id: primefaces/menu/menu.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.831
+!MESSAGE Ignoring invalid id: primefaces/menu/menu.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.832
+!MESSAGE Ignoring invalid id: primefaces/messages/error.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.832
+!MESSAGE Ignoring invalid id: primefaces/messages/fatal.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.832
+!MESSAGE Ignoring invalid id: primefaces/messages/info.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.832
+!MESSAGE Ignoring invalid id: primefaces/messages/messages.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.832
+!MESSAGE Ignoring invalid id: primefaces/messages/warn.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.833
+!MESSAGE Ignoring invalid id: primefaces/notificationbar/notificationbar.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.833
+!MESSAGE Ignoring invalid id: primefaces/notificationbar/notificationbar.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.833
+!MESSAGE Ignoring invalid id: primefaces/paginator/paginator.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.833
+!MESSAGE Ignoring invalid id: primefaces/paginator/paginator.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.833
+!MESSAGE Ignoring invalid id: primefaces/panel/panel.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.834
+!MESSAGE Ignoring invalid id: primefaces/panel/panel.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.834
+!MESSAGE Ignoring invalid id: primefaces/password/jpassword-leftbottom.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.834
+!MESSAGE Ignoring invalid id: primefaces/password/jpassword-lefttop.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.834
+!MESSAGE Ignoring invalid id: primefaces/password/jpassword-meter.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.834
+!MESSAGE Ignoring invalid id: primefaces/password/jpassword-rightbottom.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.835
+!MESSAGE Ignoring invalid id: primefaces/password/jpassword-righttop.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.835
+!MESSAGE Ignoring invalid id: primefaces/password/password.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.835
+!MESSAGE Ignoring invalid id: primefaces/password/password.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.835
+!MESSAGE Ignoring invalid id: primefaces/picklist/picklist.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.835
+!MESSAGE Ignoring invalid id: primefaces/picklist/picklist.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.836
+!MESSAGE Ignoring invalid id: primefaces/poll/poll.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.836
+!MESSAGE Ignoring invalid id: primefaces/printer/printer.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.836
+!MESSAGE Ignoring invalid id: primefaces/progressbar/progressbar.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.836
+!MESSAGE Ignoring invalid id: primefaces/push/push.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.836
+!MESSAGE Ignoring invalid id: primefaces/rating/delete.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.837
+!MESSAGE Ignoring invalid id: primefaces/rating/rating.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.837
+!MESSAGE Ignoring invalid id: primefaces/rating/rating.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.837
+!MESSAGE Ignoring invalid id: primefaces/rating/star.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.837
+!MESSAGE Ignoring invalid id: primefaces/resizable/resizable.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.837
+!MESSAGE Ignoring invalid id: primefaces/schedule/schedule.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.838
+!MESSAGE Ignoring invalid id: primefaces/schedule/schedule.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.838
+!MESSAGE Ignoring invalid id: primefaces/sheet/jquery.sheet.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.838
+!MESSAGE Ignoring invalid id: primefaces/sheet/jquery.sheet.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.838
+!MESSAGE Ignoring invalid id: primefaces/sheet/sheet.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.841
+!MESSAGE Ignoring invalid id: primefaces/slider/slider.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.841
+!MESSAGE Ignoring invalid id: primefaces/spinner/spinner.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.841
+!MESSAGE Ignoring invalid id: primefaces/spinner/spinner.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.842
+!MESSAGE Ignoring invalid id: primefaces/stack/stack.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.842
+!MESSAGE Ignoring invalid id: primefaces/tabslider/tabslider.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.842
+!MESSAGE Ignoring invalid id: primefaces/tabview/tabview.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.842
+!MESSAGE Ignoring invalid id: primefaces/terminal/terminal.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.843
+!MESSAGE Ignoring invalid id: primefaces/terminal/terminal.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.843
+!MESSAGE Ignoring invalid id: primefaces/themeswitcher/themeswitcher.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.843
+!MESSAGE Ignoring invalid id: primefaces/tooltip/tooltip.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.843
+!MESSAGE Ignoring invalid id: primefaces/touch/jqtouch.min.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.843
+!MESSAGE Ignoring invalid id: primefaces/touch/jqtouch.min.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.844
+!MESSAGE Ignoring invalid id: primefaces/touch/jqtouch.transitions.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.844
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/back_button.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.844
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/back_button_clicked.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.844
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/button.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.845
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/button_clicked.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.845
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/chevron.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.845
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/chevron_circle.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.845
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/grayButton.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.845
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/loading.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.846
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/on_off.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.846
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/rowhead.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.846
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/toggle.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.846
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/toggleOn.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.847
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/toolbar.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.847
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/dark/images/whiteButton.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.847
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/backButton.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.847
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/blueButton.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.848
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/cancel.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.848
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/chevron.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.848
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/grayButton.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.848
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/listArrowSel.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.849
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/listGroup.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.849
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/loading.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.849
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/on_off.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.849
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/pinstripes.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.850
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/selection.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.850
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/thumb.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.850
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/toggle.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.850
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/toggleOn.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.850
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/toolbar.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.851
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/toolButton.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.851
+!MESSAGE Ignoring invalid id: primefaces/touch/themes/default/images/whiteButton.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.851
+!MESSAGE Ignoring invalid id: primefaces/touch/touchfaces.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.852
+!MESSAGE Ignoring invalid id: primefaces/treetable/treetable.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.852
+!MESSAGE Ignoring invalid id: primefaces/treetable/treetable.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.853
+!MESSAGE Ignoring invalid id: primefaces/treeview/treeview.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.853
+!MESSAGE Ignoring invalid id: primefaces/treeview/treeview.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.854
+!MESSAGE Ignoring invalid id: primefaces/watermark/watermark.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.854
+!MESSAGE Ignoring invalid id: primefaces/watermark/watermark.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.854
+!MESSAGE Ignoring invalid id: primefaces/wizard/wizard.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.854
+!MESSAGE Ignoring invalid id: primefaces/wizard/wizard.js
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.855
+!MESSAGE Ignoring invalid id: primefaces/yui/assets/skins/sam/sprite.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.855
+!MESSAGE Ignoring invalid id: primefaces/yui/button/assets/skins/sam/button.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.855
+!MESSAGE Ignoring invalid id: primefaces/yui/button/assets/skins/sam/menu-button-arrow-disabled.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.855
+!MESSAGE Ignoring invalid id: primefaces/yui/button/assets/skins/sam/menu-button-arrow.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.856
+!MESSAGE Ignoring invalid id: primefaces/yui/button/assets/skins/sam/split-button-arrow-active.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.856
+!MESSAGE Ignoring invalid id: primefaces/yui/button/assets/skins/sam/split-button-arrow-disabled.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.856
+!MESSAGE Ignoring invalid id: primefaces/yui/button/assets/skins/sam/split-button-arrow-focus.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.856
+!MESSAGE Ignoring invalid id: primefaces/yui/button/assets/skins/sam/split-button-arrow-hover.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.856
+!MESSAGE Ignoring invalid id: primefaces/yui/button/assets/skins/sam/split-button-arrow.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.858
+!MESSAGE Ignoring invalid id: primefaces/yui/colorpicker/assets/skins/sam/colorpicker.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.858
+!MESSAGE Ignoring invalid id: primefaces/yui/colorpicker/assets/skins/sam/hue_bg.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.858
+!MESSAGE Ignoring invalid id: primefaces/yui/colorpicker/assets/skins/sam/picker_mask.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.859
+!MESSAGE Ignoring invalid id: primefaces/yui/container/assets/skins/sam/container.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.860
+!MESSAGE Ignoring invalid id: primefaces/yui/editor/assets/skins/sam/blankimage.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.861
+!MESSAGE Ignoring invalid id: primefaces/yui/editor/assets/skins/sam/editor-knob.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.861
+!MESSAGE Ignoring invalid id: primefaces/yui/editor/assets/skins/sam/editor-sprite-active.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.861
+!MESSAGE Ignoring invalid id: primefaces/yui/editor/assets/skins/sam/editor-sprite.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.861
+!MESSAGE Ignoring invalid id: primefaces/yui/editor/assets/skins/sam/editor.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.863
+!MESSAGE Ignoring invalid id: primefaces/yui/menu/assets/skins/sam/menu.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.864
+!MESSAGE Ignoring invalid id: primefaces/yui/menu/assets/skins/sam/menubaritem_submenuindicator.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.864
+!MESSAGE Ignoring invalid id: primefaces/yui/menu/assets/skins/sam/menubaritem_submenuindicator_disabled.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.864
+!MESSAGE Ignoring invalid id: primefaces/yui/menu/assets/skins/sam/menuitem_checkbox.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.864
+!MESSAGE Ignoring invalid id: primefaces/yui/menu/assets/skins/sam/menuitem_checkbox_disabled.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.864
+!MESSAGE Ignoring invalid id: primefaces/yui/menu/assets/skins/sam/menuitem_submenuindicator.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.865
+!MESSAGE Ignoring invalid id: primefaces/yui/menu/assets/skins/sam/menuitem_submenuindicator_disabled.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.865
+!MESSAGE Ignoring invalid id: primefaces/yui/paginator/assets/skins/sam/paginator-skin.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.865
+!MESSAGE Ignoring invalid id: primefaces/yui/paginator/assets/skins/sam/paginator.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.866
+!MESSAGE Ignoring invalid id: primefaces/yui/resize/assets/skins/sam/layout_sprite.png
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.866
+!MESSAGE Ignoring invalid id: primefaces/yui/resize/assets/skins/sam/resize.css
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.868
+!MESSAGE Ignoring invalid id: primefaces/yui/slider/assets/skins/sam/bg-h.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.868
+!MESSAGE Ignoring invalid id: primefaces/yui/slider/assets/skins/sam/bg-v.gif
+
+!ENTRY org.eclipse.jst.jsf.core 1 0 2011-04-19 18:40:26.868
+!MESSAGE Ignoring invalid id: primefaces/yui/slider/assets/skins/sam/slider.css
+
+!ENTRY org.eclipse.jface.text 4 0 2011-04-19 18:40:27.279
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.ElementCMAdapter.getProperty(ElementCMAdapter.java:82)
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.DocumentElementCMAdapter.getProperty(DocumentElementCMAdapter.java:101)
+	at org.eclipse.wst.xml.ui.internal.taginfo.MarkupTagInfoProvider.printTagInfo(MarkupTagInfoProvider.java:179)
+	at org.eclipse.wst.xml.ui.internal.taginfo.MarkupTagInfoProvider.getInfo(MarkupTagInfoProvider.java:51)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getAdditionalInfo(XMLTagInfoHoverProcessor.java:166)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagNameHelp(XMLTagInfoHoverProcessor.java:145)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:105)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-04-19 18:42:04.389
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.ElementCMAdapter.getLength(ElementCMAdapter.java:109)
+	at org.eclipse.wst.xml.core.internal.contentmodel.basic.CMNamedNodeMapImpl.<init>(CMNamedNodeMapImpl.java:40)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getCMAttributeDeclaration(XMLTagInfoHoverProcessor.java:206)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttNameHelp(XMLTagInfoHoverProcessor.java:122)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:108)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-04-19 18:44:46.571
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.ElementCMAdapter.getLength(ElementCMAdapter.java:109)
+	at org.eclipse.wst.xml.core.internal.contentmodel.basic.CMNamedNodeMapImpl.<init>(CMNamedNodeMapImpl.java:40)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getCMAttributeDeclaration(XMLTagInfoHoverProcessor.java:206)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttValueHelp(XMLTagInfoHoverProcessor.java:135)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:111)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-04-19 18:44:59.675
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.ElementCMAdapter.getLength(ElementCMAdapter.java:109)
+	at org.eclipse.wst.xml.core.internal.contentmodel.basic.CMNamedNodeMapImpl.<init>(CMNamedNodeMapImpl.java:40)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getCMAttributeDeclaration(XMLTagInfoHoverProcessor.java:206)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttNameHelp(XMLTagInfoHoverProcessor.java:122)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:108)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-04-19 18:45:32.644
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.ElementCMAdapter.getLength(ElementCMAdapter.java:109)
+	at org.eclipse.wst.xml.core.internal.contentmodel.basic.CMNamedNodeMapImpl.<init>(CMNamedNodeMapImpl.java:40)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getCMAttributeDeclaration(XMLTagInfoHoverProcessor.java:206)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttValueHelp(XMLTagInfoHoverProcessor.java:135)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:111)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-04-19 18:47:19.041
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.ElementCMAdapter.getLength(ElementCMAdapter.java:109)
+	at org.eclipse.wst.xml.core.internal.contentmodel.basic.CMNamedNodeMapImpl.<init>(CMNamedNodeMapImpl.java:40)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getCMAttributeDeclaration(XMLTagInfoHoverProcessor.java:206)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttNameHelp(XMLTagInfoHoverProcessor.java:122)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:108)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-04-19 18:47:21.667
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.ElementCMAdapter.getLength(ElementCMAdapter.java:109)
+	at org.eclipse.wst.xml.core.internal.contentmodel.basic.CMNamedNodeMapImpl.<init>(CMNamedNodeMapImpl.java:40)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getCMAttributeDeclaration(XMLTagInfoHoverProcessor.java:206)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttValueHelp(XMLTagInfoHoverProcessor.java:135)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:111)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-04-19 18:48:30.978
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.ElementCMAdapter.getLength(ElementCMAdapter.java:109)
+	at org.eclipse.wst.xml.core.internal.contentmodel.basic.CMNamedNodeMapImpl.<init>(CMNamedNodeMapImpl.java:40)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getCMAttributeDeclaration(XMLTagInfoHoverProcessor.java:206)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttValueHelp(XMLTagInfoHoverProcessor.java:135)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:111)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
+
+!ENTRY org.eclipse.jface.text 4 0 2011-04-19 18:48:33.194
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jst.jsf.facelet.core.internal.cm.ElementCMAdapter.getLength(ElementCMAdapter.java:109)
+	at org.eclipse.wst.xml.core.internal.contentmodel.basic.CMNamedNodeMapImpl.<init>(CMNamedNodeMapImpl.java:40)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getCMAttributeDeclaration(XMLTagInfoHoverProcessor.java:206)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeTagAttValueHelp(XMLTagInfoHoverProcessor.java:135)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeRegionHelp(XMLTagInfoHoverProcessor.java:111)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.computeHoverHelp(XMLTagInfoHoverProcessor.java:86)
+	at org.eclipse.wst.xml.ui.internal.taginfo.XMLTagInfoHoverProcessor.getHoverInfo(XMLTagInfoHoverProcessor.java:257)
+	at org.eclipse.jst.jsf.facelet.ui.internal.hover.FaceletHover.getHoverInfo(FaceletHover.java:58)
+	at org.eclipse.wst.sse.ui.internal.taginfo.BestMatchHover.getHoverInfo(BestMatchHover.java:90)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:168)
